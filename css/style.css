@@ -1,0 +1,139 @@
+body{font-family: "Helvetica",serif;
+			background color:#FFEFFD5;
+		}
+		h1{color:#D98880; background-color:#330033;/*to determine the color of heading 1*/
+		}
+		{
+			margin:0px;
+			paddig:0px;
+			border sizing:border-box;
+		}
+		.navbar/*determining the style of div class"nav"*/
+		{
+			background-color:#330033;
+			display:flex;
+			justify-content: center;
+			margin: 20px 0px;
+		}
+		.navbar a/*determining the style of div class"nav" anchor tag*/
+		{
+			color:white;
+			text-align:center;
+			font-weight:bold ;
+			text-decoration: none;
+			text-transform: uppercase;
+			padding:14px 28px;
+		}
+		.navbar a:hover/*determining the hover style of div class"nav" anchor tag*/
+		{
+			background-color:#D98880;
+			color:black;
+			box shadow:0 0 10px #D98880;
+
+		}
+		.fa /*determining the style of the social icons*/
+		{
+  padding: 20px;
+  font-size: 40px;
+  width: 50px;
+  text-decoration: none;
+}
+.fa:hover /*determining the hover style of the social icons*/
+{
+			background-color:#D98880;
+			color:black;
+		}
+
+/* Setting specific colours for each logo */
+/* for Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* for Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* for instagram*/
+.fa-instagram{
+background: #3f729b;
+color: white;
+}
+/* for whatsapp*/
+.fa-whatsapp{
+background: #075e54;
+color: white;
+}
+.footer/*determining the style of the div class"footer"*/
+{
+	margin:0;
+	padding:0px;
+	font-family:"Helvetica",serif;
+	box-sizing: border-box;
+	width:device-width;
+}
+.footer/*determining the text style of the div class"footer"*/
+{
+	margin-top:15px;
+	width:100%;
+	padding:50px 10%;
+	background:#EBDEF0;
+	color:black;
+	display:flex;
+}
+.footer/*determining the allignment of the div class"footer"*/
+ {
+	text-align:center;
+}
+.col-1 a{
+	display:block;
+	text-decoration: none;
+	color:black;
+	margin-bottom: 10px;
+}
+.col-2{
+	flex-grow:8;
+}
+.col-3{
+	font-weight: 300;
+	margin-bottom:30px;
+	letter-spacing: 1px;
+}
+form input
+{
+	width:400px;
+	height:40px;
+	border-radius: 4px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	background:white ;
+	outline:none;
+}
+form button
+{
+	background: white;
+	border:2px solid #black;
+	color:black;
+	border-radius: 30px;
+	padding:10px 30px;
+	cursor:pointer;
+}
+.text/*determining the style of div class"text"*/
+{
+	background-image: url("C:/Users/hp/OneDrive/Pictures/Documents/Website Folder/img/oldlogo.png");
+	background-repeat: no-repeat;
+	background-size:100%;
+	opacity:0.7;
+	height:fit-content;
+	width:border-box;
+}
+.contact/*determining the style of div class"contact"*/
+{
+	background-image: url("C:/Users/hp/OneDrive/Pictures/Documents/Website Folder/img/oldlogo.png");
+	background-repeat: no-repeat;
+	background-size:100%;
+	align:center;
+	opacity:0.7;
+}
